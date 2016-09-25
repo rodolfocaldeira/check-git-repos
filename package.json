@@ -1,0 +1,27 @@
+{
+  "name": "check-git-repos",
+  "version": "0.0.0",
+  "description": "Check the status of all your git repos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "check",
+    "git",
+    "repository",
+    "repo",
+    "status",
+    "quickly",
+    "easy"
+  ],
+  "author": "Rodolfo Caldeira <me@rodolfocaldeira.com>",
+  "license": "MIT",
+  "bin": {
+    "check-git-repos": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "shelljs": "^0.7.4"
+  }
+}
